@@ -40,6 +40,16 @@
         <link href="css/styles.css" rel="stylesheet">
     </head>
     <body onload="init(4);">
+	<style>
+	body {
+		background: #000 url(fon.jpg); /* Фоновый цвет и фоновый рисунок*/
+		color: #fff; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x;
+		background-size: 100%;
+		/* Изображение повторяется по горизонтали */
+	}
+   </style>
         <div class="puzzle-wrapper">
             <canvas id="canvas"></canvas>
         </div>
